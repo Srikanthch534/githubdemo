@@ -1,0 +1,2017 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 15 18:52:51 2021
+
+@author: pc
+"""
+'''
+#1.simple python program to print hello world
+print("Hello world") #Hello world
+'''
+
+
+
+
+'''
+#1.python prgram to add two numbers from the user
+
+n1=int(input("Enter the first number: ")) #type casted into string to integer
+n2=int(input("Enter the second number: ")) #type casted into string to integer
+sum=n1+n2 #using airthmetic + opertor ,adding the two numbers
+print(sum)
+'''
+
+
+
+
+
+
+'''
+#2.python prgram to add two numbers from the user
+
+n1=input("Enter the first number: ") #taking input from the user as string
+n2=input("Enter the second number: ")
+sum=float(n1)+float(n2) #type casting to float 
+print("The sum of {0} and {1} is {2}".format(n1, n2,sum)) #The sum of 10.0 and 20.0 is 30.0
+ #taking input from the user as string and type casted to float data
+n2=float(input("Enter the second number: "))
+sum=n1+n2 
+print("The sum of {0} and {1} is {2}".format(n1, n2,sum)) #The sum of 10.0 and 20.0 is 30.0
+
+'''
+
+
+
+
+'''
+#3.python prgram to subtract two numbers from the user
+n1=int(input("Enter the first number: ")) #taking input from the user and converting to integer
+n2=int(input("Enter the second number: "))
+diff=n1-n2 #subtracting two numbers by -  operator
+print(diff)
+'''
+
+
+
+'''
+
+#4.python prgram to subtract two numbers from the user
+
+n1=input("Enter the first number: ") #taking input from the user as string
+n2=input("Enter the second number: ")
+diff=float(n1)-float(n2) #type casting to float 
+print("The diff of {0} and {1} is {2}".format(n1, n2,diff)) #The sum of 10 and 20 is -10.0
+
+'''
+
+
+
+
+
+'''
+#5.python prgram to subtract two numbers from the user
+
+n1=float(input("Enter the first number: ")) #taking input from the user as string and type casted to float data
+n2=float(input("Enter the second number: "))
+diff=n1-n2 
+print("The diff of {0} and {1} is {2}".format(n1, n2,diff)) #The sum of 20.0 and 10.0 is 10.0
+'''
+
+
+'''
+#6.python prgram to subtract two numbers by using functions
+
+def subtwonum(a,b): #defining the function name 
+    return a-b    #returing output
+n1=int(input("Enter the first number: "))
+n2=int(input("Enter the second number: "))
+dif=subtwonum(n1,n2) #the returned output will be collected in the diff variable and calling the function name
+print("The diff of {0} and {1} is {2}".format(n1,n2,dif)) #displaying the output
+#The diff of 10 and 20 is -10
+
+'''
+
+
+
+
+'''
+#7.python prgram to multiply  two numbers from the user
+n1=int(input("Enter the first number: ")) #taking input from the user and converting to integer
+n2=int(input("Enter the second number: "))
+product=n1*n2 #Mulitlying two numbers by *  operator
+print(product)
+'''
+
+
+
+
+
+'''
+#8.python prgram to multiply two numbers from the user
+
+n1=input("Enter the first number: ") #taking input from the user as string
+n2=input("Enter the second number: ")
+product=float(n1)*float(n2) #type casting to float 
+print("The product of {0} and {1} is {2}".format(n1, n2,product)) #The product of 12 and 12 is 144.0
+'''
+
+
+
+
+
+
+'''
+#9.python prgram to mulitply two numbers from the user
+
+n1=float(input("Enter the first number: ")) #taking input from the user as string and type casted to float data
+n2=float(input("Enter the second number: "))
+product=n1*n2 
+print("The product of {0} and {1} is {2}".format(n1, n2,product)) #The product of 12.0 and 12.0 is 144.0
+'''
+
+
+
+
+
+'''
+#10.python prgram to mulitply two numbers by using functions
+
+def multwonum(a,b): #defining the function name 
+    return a*b    #returing output
+n1=int(input("Enter the first number: "))
+n2=int(input("Enter the second number: "))
+product=multwonum(n1,n2) #the returned output will be collected in the diff variable and calling the function name
+print("The prodcut of {0} and {1} is {2}".format(n1,n2,product)) #displaying the output
+#The prodcut of 2 and 5 is 10
+'''
+
+
+
+
+'''
+#11. Python Program to Perform Arithmetic Operations
+
+num1 = float(input(" Please Enter the First Value Number 1: "))
+num2 = float(input(" Please Enter the Second Value Number 2: "))
+
+# Add Two Numbers
+add = num1 + num2
+
+# Subtracting num2 from num1
+sub = num1 - num2
+
+# Multiply num1 with num2
+multi = num1 * num2
+
+# Divide num1 by num2
+div = num1 / num2
+
+# Modulus of num1 and num2
+mod = num1 % num2 # % gives the remainder
+
+# Exponent of num1 and num2
+expo = num1 ** num2  # ** gives the power of the number
+
+print("The Sum of {0} and {1} = {2}".format(num1, num2, add))
+print("The Subtraction of {0} from {1} = {2}".format(num2, num1, sub))
+print("The Multiplication of {0} and {1} = {2}".format(num1, num2, multi))
+print("The Division of {0} and {1} = {2}".format(num1, num2, div))
+print("The Modulus of {0} and {1} = {2}".format(num1, num2, mod))
+print("The Exponent Value of {0} and {1} = {2}".format(num1, num2, expo))
+
+
+ Please Enter the First Value Number 1: 50
+
+ Please Enter the Second Value Number 2: 5
+The Sum of 50.0 and 5.0 = 55.0
+The Subtraction of 5.0 from 50.0 = 45.0
+The Multiplication of 50.0 and 5.0 = 250.0
+The Division of 50.0 and 5.0 = 10.0
+The Modulus of 50.0 and 5.0 = 0.0
+The Exponent Value of 50.0 and 5.0 = 312500000.0
+'''
+
+
+#12.python calendar exapmle
+'''
+import calendar
+print(calendar.month(2016,1))
+
+'''
+
+
+
+
+'''
+
+#13.importing calendar module
+import calendar
+
+#ask for month and year
+year=int(input("Enter the year number: "))
+month=int(input("Enter the month number: "))
+
+#displaying the python calendar
+print(calendar.month(year,month))
+
+
+
+
+Enter the year number: 2022
+
+Enter the month number: 1
+    January 2022
+Mo Tu We Th Fr Sa Su
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+24 25 26 27 28 29 30
+31
+'''
+
+
+
+#14.python program to find the cube of a number
+'''
+n=int(input("Enter any number: ")) #string to int
+cube=n*n*n  #multiplying the numbers ...3times to get cube
+print(cube)
+'''
+'''
+#python program to find the cube of a number
+n=float(input("Enter the number: ")) #str to float
+cube=n*n*n   #multiplying the numbers....3times
+print(cube)
+'''
+
+
+
+
+
+'''
+#15.python program to find the cube of a number
+n=float(input("Enter the number: ")) #str to float
+cube=n*3  #multiplying the numbers....3times
+print(cube)
+
+Enter the number: 6
+18.0
+'''
+
+
+#16.python program to find the cube of a number using functions
+'''
+def cube(n):
+    return n*n*n
+
+
+number=int(input("Enter the number: "))
+
+res=cube(number)
+print("result=",res)
+
+
+Enter the number: 60
+result= 216000
+'''
+
+'''
+def cube(n):
+    return n*3
+
+
+number=float(input("Enter the number: "))
+
+res=cube(number)
+print("The cube of {0} is {1}".format(number,res))
+
+Enter the number: 7
+The cube of 7.0 is 21.0
+'''
+
+
+'''
+#17.python program to find the largest of two numbers
+
+a=int(input("Please enter the value of a: "))
+b=int(input("Please enter the value of b: "))
+
+if (a>b):
+    print("{0} is Greater than {1}".format(a,b))
+elif (b>a):
+    print("{0} is Greater than {1}".format(b,a))     
+else:
+    print("Both a and b are equal")
+    
+Please enter the value of a: 20
+
+Please enter the value of b: 20
+Both a and b are equal    
+
+
+
+Please enter the value of a: 20
+
+Please enter the value of b: 10
+20 is Greater than 10
+
+
+
+
+Please enter the value of a: 10
+
+Please enter the value of b: 20
+20 is Greater than 10
+
+
+'''
+
+'''
+#18.python program to find the largest of three numbers
+
+a=int(input("Please enter the first number: "))
+b=int(input("Please enter the second number: "))
+c=int(input("Please enter the third number: "))
+
+if (a>b and a>c):
+    print("{0} Greater than {1},{2}".format(a,b,c))
+elif (b>a and b>c):
+        print("{0} Greater than {1},{2}".format(b,a,c))
+elif (c>a and c>b):
+        print("{0} Greater than {1},{2}".format(c,a,b))
+else:
+    print("All three values are equal")     
+    
+'''
+'''
+Please enter the first number: 10
+
+Please enter the second number: 5
+
+Please enter the third number: 2
+10 Greater than 5,2    
+
+
+Please enter the first number: 10
+
+Please enter the second number: 30
+
+Please enter the third number: 5
+30 Greater than 10,5  
+
+
+Please enter the first number: 10
+
+Please enter the second number: 20
+
+Please enter the third number: 30
+30 Greater than 10,20
+
+
+
+Please enter the first number: 10
+
+Please enter the second number: 10
+
+Please enter the third number: 10
+All three values are equal
+  '''      
+  
+''' 
+#19.python prgram to print natural numbers using for loop
+
+n=int(input("Please enter the numbeer: "))
+print("Enter the natural numbers from 1 to {0} are:".format(n))
+for i in range(1,n+1):
+    print(i)
+'''
+'''    
+Please enter the numbeer: 10
+Enter the natural numbers from 1 to 10 are:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10    
+'''  
+
+#20.python prgram to print natural numbers using for loop
+'''
+n=int(input("Please enter the numbeer: "))
+print("Enter the natural numbers from 1 to {0} are:".format(n))
+for i in range(1,n+1):
+    print(i,end=' ')  
+Please enter the numbeer: 10
+Enter the natural numbers from 1 to 10 are:
+1 2 3 4 5 6 7 8 9 10   
+'''
+
+#21.python prgram to print natural numbers using while loop
+'''
+
+n=int(input("Please enter any value: "))
+print("Enter the natural numbers from 1 to {0} are:".format(n))
+i=1;
+while (i<=n):
+    print(i,end=" " )  # or print(i,end=' ') with single quotes
+    i+=1
+'''
+'''
+Please enter any value: 15
+Enter the natural numbers from 1 to 15 are:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+'''
+
+
+
+'''
+#22.python program to print natural numbers within range
+
+minimum=int(input("Enter the min value: "))
+maximum=int(input("Enter the max value: "))  
+print("Enter the natural numbers from {0} to {1} are:".format(minimum,maximum))
+for i in range(minimum,maximum+1):
+    print(i,end=' ')
+
+Enter the min value: 30
+
+Enter the max value: 40
+Enter the natural numbers from 30 to 40 are:
+30 31 32 33 34 35 36 37 38 39 40 
+'''
+
+
+'''
+#23.write a program to check whether the year is leap year or not
+
+year=int(input("Enter a year: "))
+
+if (year%400==0):
+    print(year,"is a leap year")
+elif (year%4==0 and year&100!=0):
+    print(year,"is a leap year")
+else:
+    print(year,"is not a leap year")  
+    
+    
+Enter a year: 2022
+2022 is not a leap year    
+    
+
+Enter a year: 2020
+2020 is a leap year   
+''' 
+
+'''
+#24.write a program to check whether the year is leap year or not using functions
+def year(number):
+    
+    if (number%400==0): #if the given number  div by 400 is a leap year
+        print(number,"is a leap year")
+    elif (number%4==0 and year&100!=0):  # if the number is div by 4 and not div by 100 is a leap year
+        print(number,"is a leap year")
+    else:
+        print(number,"is not a leap year")  
+    
+number=int(input("Enter a year: ")) #taking input from the user
+year(number) #calling the function
+
+
+Enter a year: 2000
+2000 is a leap year
+
+
+Enter a year: 2022
+2022 is not a leap year
+
+  ''' 
+  
+  
+  
+''' 
+#25.python program to check if a number is odd or even
+
+num=int(input("Enter any Integer value: "))#taking the integer number from th user
+
+
+if (num%2==0): #if the given number is divisble by 2 ,it is even or odd
+
+    print(num,"is even")
+else:         #if  not divisble by 2 ,this block excutes
+    print(num,"is odd number")    
+    
+    
+Enter any Integer value: 44
+44 is even
+
+
+Enter any Integer value: 45
+45 is odd number  
+
+'''  
+
+'''
+number = int(input(" Please Enter any Integer Value : "))
+
+print(number,"is even" if(number % 2 == 0) else "is odd")
+
+
+ Please Enter any Integer Value : 5
+5 is odd
+
+
+ Please Enter any Integer Value : 4
+4 is even
+'''
+
+
+
+'''
+#26.python program to print even numbers from 1 to n by using for loop
+
+n=int(input("Enter the number upto where you need to print the even numbers: "))
+
+
+for i in range(1,n+1):
+    if (i%2==0):
+        print(i,end=' ')
+        
+Enter the number upto where you need to print the even numbers: 100
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58
+ 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100         
+    
+'''
+
+
+
+'''
+#27.python program to print even numbers from 1 to n  without using if statement
+
+n=int(input("Enter the number: "))
+for i in range(2,n+1,2): # Here the loop started from 2 and ended upto given number and the step is given 2...to get the even numbers
+    print(i,end=' ')
+    
+Enter the number: 100
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 
+50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100     
+'''
+
+
+
+
+'''
+#28.python program to print even numbers from 1 to n by using for loop
+
+n=int(input("Enter the number upto where you need to print the even numbers: "))
+i=1   # i is intialized to 1,where the while loop start from 1
+while(i<=n): #as long as condition is true the loop exceutes
+    if(i%2==0):
+        print(i,end=' ')
+    i=i+1 #i is incremented to 1 ,to check the next number 
+
+Enter the number upto where you need to print the even numbers: 100
+0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 
+62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100     
+  '''  
+  
+  
+'''  
+#29. Python Program to Print Even Numbers from Min to Max
+
+mini=int(input("enter the min number: "))
+maxi=int(input("enter the max number: "))
+
+for i in range(mini,maxi+1):
+    if (i%2==0):
+        print(i,end=' ')
+        
+
+enter the min number: 60
+
+enter the max number: 100
+60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100         
+    
+
+''' 
+
+ 
+'''
+#30.python program to print odd numbers from 1 to n by using for loop
+
+n=int(input("Enter the number upto where you need to print the odd numbers: "))
+
+
+for i in range(1,n+1):
+    if (i%2!=0): # if the number(i) is not div by 2 ,then odd checks the condition
+        print(i,end=' ')
+        
+
+  Enter the number upto where you need to print the odd numbers: 100
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 6
+3 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99   
+
+
+
+#31.python program to print odd numbers from 1 to n  without using if statement
+
+n=int(input("Enter the number: "))
+for i in range(1,n+1,2): # Here the loop started from 1 and ended upto given number and the step is given 2...to get the odd numbers
+    print(i,end=' ')
+    
+  Enter the number: 100
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41
+ 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 
+
+
+
+#32.python program to print odd numbers from 1 to n by using for loop
+
+n=int(input("Enter the number upto where you need to print the odd numbers: "))
+i=1   # i is intialized to 1,where the while loop start from 1
+while(i<=n): #as long as condition is true the loop exceutes
+    if(i%2!=0):
+        print(i,end=' ')
+    i=i+1 #i is incremented to 1 ,to check the next number 
+
+Enter the number upto where you need to print the odd numbers: 100
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 
+57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 
+  
+  
+
+#33. Python Program to Print Even Numbers from Min to Max
+
+mini=int(input("enter the min number: "))
+maxi=int(input("enter the max number: "))
+
+for i in range(mini,maxi+1):
+    if (i%2!=0):
+        print(i,end=' ')
+        
+
+enter the min number: 50
+
+enter the max number: 100
+51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 
+'''
+
+
+'''
+#34.python program to print negative numbers within range by using for loop
+
+mini=int(input("enter the min number:"))
+maxi=int(input("enter the maxi number: "))
+for i in range(mini,maxi+1):
+    if i<0: # if the numbers are less than 0,condition is ture ,then  exceute the loop
+        print(i,end=" ")
+        
+
+enter the min number:-45
+
+enter the maxi number: 1
+-45 -44 -43 -42 -41 -40 -39 -38 -37 -36 -35 -34 -33 -32 -31 -30 -29 -28 -27 -26 -25 -24 -23 -22 -21 -20 
+-19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1   
+'''
+
+'''
+#35.python program to print negative numbers within range by using while loop
+
+minimum=int(input("enter the min number: "))
+maximum=int(input("enter the max number: "))
+
+
+while minimum<=maximum:
+    if minimum<0:
+        print(minimum,end=" ")
+        
+    minimum=minimum+1    
+    
+enter the min number: -78
+
+enter the max number: 8
+-78 -77 -76 -75 -74 -73 -72 -71 -70 -69 -68 -67 -66 -65 -64 -63 -62 -61 -60 -59 -58 
+-57 -56 -55 -54 -53 -52 -51 -50 -49 -48 -47 -46 -45 -44 -43 -42 -41 -40 -39 -38 -37 -36 -35 -34 -33 -32 
+-31 -30 -29 -28 -27 -26 -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1     
+'''
+
+'''
+#36.python program to print negative numbers within range by using function
+
+
+def negative(mini,maxi): #arguments
+    for i in range(mini,maxi+1):
+        if i<0:
+            print(i,end=' ')
+            
+a=int(input("enter the min number:"))  
+b=int(input("enter the max number: "))   
+
+negative(a, b)  #parameters
+
+enter the min number:-12
+
+enter the max number: 1
+-12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
+
+
+
+'''
+
+
+'''
+
+#37.python program to print negative numbers within range by using for loop
+
+mini=int(input("enter the min number:"))
+maxi=int(input("enter the maxi number: "))
+for i in range(mini,maxi+1):
+    if i>0: # if the numbers are greater than 0,condition is ture ,then  exceute the loop
+        print(i,end=" ")
+        
+enter the min number:1
+
+enter the maxi number: 3
+1 2 3
+
+'''
+
+'''
+
+#38.python program to print negative numbers within range by using while loop
+
+minimum=int(input("enter the min number: "))
+maximum=int(input("enter the max number: "))
+
+
+while minimum<=maximum:
+    if minimum>0:
+        print(minimum,end=" ")
+        
+    minimum=minimum+1    
+    
+    
+
+enter the min number: 1
+
+enter the max number: 20
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+'''     
+
+
+
+'''
+#39.python program to print negative numbers within range by using function
+
+
+def negative(mini,maxi): #arguments
+    for i in range(mini,maxi+1):
+        if i>0:
+            print(i,end=' ')
+            
+a=int(input("enter the min number:"))  
+b=int(input("enter the max number: "))   
+
+negative(a, b)  #parameters
+
+
+
+enter the min number:1
+
+enter the max number: 15
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+'''
+
+
+
+'''
+#40.python program to ccheck th number is positive or ngative or zero
+
+number=int(input("Enter any number: "))
+if (number>0):
+    print(number,"is positive")
+elif(number<0):
+    print(number,"is negative")    
+    
+else:
+    print("sorry you have enterd incorrect number or 0")    
+    
+    
+    
+Enter any number: 0
+sorry you have enterd incorrect number or 0
+
+
+Enter any number: 1
+1 is positive
+
+
+Enter any number: -5
+-5 is negative    
+
+'''
+
+
+
+
+
+'''
+#41.python program to ccheck th number is positive or ngative or zero using functions
+
+def number(n):
+    if (n>0):
+        print(n,"is positive")
+    elif(n<0):
+        print(n,"is negative")    
+    
+    else:
+        print("sorry you have enterd incorrect number or 0")    
+    
+    
+a=int(input("Enter any number: "))
+number(a)
+
+
+
+Enter any number: 7
+7 is positive
+
+
+Enter any number: -9
+-9 is negative
+
+
+Enter any number: 0
+sorry you have enterd incorrect number or 0
+'''
+
+
+
+
+
+'''
+#42.program to check the price is profit or loss
+
+selling=int(input("enter the selling price: "))
+cost=int(input("enter the cost price: "))
+if (selling>cost):
+    print("profit")
+    
+else:
+    print("loss")    
+    
+    
+enter the selling price: 1500
+
+enter the cost price: 200
+profit
+
+'''
+
+
+
+'''
+#43.program to calculate the profit and loss amout
+
+selling=int(input("enter the selling price: "))
+cost=int(input("enter the cost price: ")) 
+
+if (selling>cost):
+    amount=selling-cost
+    print("Total profit",amount)
+elif (selling<cost):
+    amount=cost-selling
+    print(" Total loss",amount)
+else:
+    print("NO PROFIT OR LOSS")
+    
+    
+enter the selling price: 1500
+
+enter the cost price: 300
+Total profit 1200
+
+
+enter the selling price: 300
+
+enter the cost price: 1500
+ Total loss 1200
+
+
+enter the selling price: 1500
+
+enter the cost price: 1500
+NO PROFIT OR LOSS   
+'''
+
+
+
+'''
+# 44.Python Program to Calculate Square of a Number
+
+n=int(input("Enter the number: "))
+sq_num=n*n
+print("The square of the {0} is {1}".format(n,sq_num))
+
+
+
+Enter the number: 5
+The square of the 5 is 25
+'''      
+
+
+
+'''
+#45.Python Program to Calculate Square of a Number
+
+n=int(input("Enter the number: "))
+sq_num=n**2
+print("The square of the {0} is {1}".format(n,sq_num))
+
+Enter the number: 10
+The square of the 10 is 100
+
+'''
+
+
+
+'''
+#46.Python Program to Calculate Square of a Number by using functions
+
+def sq_num(n):
+    return n*n
+num=int(input("Enter the number: "))
+res=sq_num(num)
+print("The square of the {0} is {1}".format(num,res))
+
+
+Enter the number: 13
+The square of the 13 is 169
+
+'''
+
+'''
+
+#47.Python Program to Calculate Square of a Number by using functions
+
+def sq_num(n):
+    return n*n
+n=int(input("Enter the number: "))
+res=sq_num(n)
+print("The square of the {0} is {1}".format(n,res))
+
+
+Enter the number: 14
+The square of the 14 is 196
+'''
+
+'''
+#48..square root of a number
+import math
+number=float(input("Enter any numric value: "))
+sq_root=math.sqrt(number)
+print("The square root of a {0} is {1}".format(number,sq_root))
+
+Enter any numric value: 5
+The square root of a 5.0 is 2.23606797749979
+
+'''
+
+'''
+#49..square root of a number  using pow() function
+import math
+number=float(input("Enter any numric value: "))
+sq_root=math.pow(number, 0.5)
+print("The square root of a {0} is {1}".format(number,sq_root))
+
+
+Enter any numric value: 5
+The square root of a 5.0 is 2.23606797749979
+'''
+
+
+'''
+#50.power function   
+import math
+n=int(input("enter a number: "))
+res=math.pow(2, 2)
+
+enter a number: 2
+4.0
+print(res)
+'''
+
+'''
+#51.square root of a number  using def function
+
+import math
+def sq_root(number):
+    res=math.sqrt(number)
+    print(res)
+n=int(input("enter a number: "))
+sq_root(n)
+
+enter a number: 2
+1.4142135623730951
+ 
+''' 
+   
+'''
+#52.program to find all divisors of a integer by for loop
+
+n=int(input("Enter the integer: "))
+for i in range(1,n+1):
+    if (n%i==0):
+        print(i,end=" ")
+        
+
+Enter the integer: 200
+1 2 4 5 8 10 20 25 40 50 100 200   
+'''
+
+'''
+#53.program to find all divisors of a integer by while loop
+
+n=int(input("enter the value: "))
+
+i=1
+while(i<=n):
+    if (n%i==0):
+        print(i,end=" ")
+    i=i+1     
+    
+    
+enter the value: 50
+1 2 5 10 25 50
+'''
+
+ #54.program to find all divisors of a integer by functions
+ 
+''' 
+def finddivisors(num):
+    for i in range(1,num+1):
+        if(num%i==0):
+            print(i,end=" ")
+num=int(input("enter the digit:"))
+finddivisors(num)        
+
+
+enter the digit:500
+1 2 4 5 10 20 25 50 100 125 250 500     
+ 
+'''
+
+
+
+'''
+#55.python prgram to check if the number is divisible by 5 and 11
+
+
+n=int(input("Enter the number: "))
+
+if((n%5==0) and (n%11==0)):
+    print("{0} is divisble by {1} and {2}".format(n,5,11)  )  
+else:
+   print("{0} is not divisble by {1} and {2}".format(n,5,11)    )
+          
+   
+
+Enter the number: 10
+10 is not divisble by 5 and 11
+
+Enter the number: 6
+6 is not divisble by 5 and 11 
+
+'''
+
+
+
+'''
+#56.program to find a power of a number by for loop
+
+n=int(input("Enter the number: "))
+ex=int(input("Enter the ex number: "))
+power=1
+for i in range(1,ex+1):
+    
+    power=power*n
+print(power)
+
+
+Enter the number: 3
+
+Enter the ex number: 4
+81
+'''
+
+
+
+'''
+#57.program to find a power of a number by while loop
+
+
+n=int(input("Enter the number: "))
+ex=int(input("Enter thee ex number: "))
+power=1
+i=1
+while(i<=ex):
+    power=power*n
+    i=i+1
+print(power)    
+
+
+
+Enter the number: 34
+
+Enter thee ex number: 4
+1336336
+'''
+
+
+
+'''
+
+#58.program to find power of a number by pow function
+
+import math
+n=int(input("Enter the number: "))
+ex=int(input("Enter thee ex number: "))
+
+power=math.pow(n, ex)
+print(power)
+
+
+
+Enter the number: 3
+
+Enter thee ex number: 4
+81.0
+'''
+
+
+
+'''
+#59.program to find power of a number by function
+import math
+def power(num,Exponent):
+    power=math.pow(num, Exponent)
+    return power
+num=int(input("Enter the number: "))
+Exponent=int(input("Enter thee ex number: "))
+
+res=pow(num, Exponent)
+print(res)
+
+Enter the number: 3
+
+
+Enter thee ex number: 4
+81
+'''
+
+
+'''
+
+#60.program to print multiplication table
+
+
+
+number=int(input("Enter the table number: "))
+
+for i in range(1,11):
+    print(number,"*",i,'=',number*i)
+
+
+
+Enter the table number: 10
+10 * 1 = 10
+10 * 2 = 20
+10 * 3 = 30
+10 * 4 = 40
+10 * 5 = 50
+10 * 6 = 60
+10 * 7 = 70
+10 * 8 = 80
+10 * 9 = 90
+10 * 10 = 100
+'''
+
+
+'''
+#61.program to print multiplication table upto 10
+
+
+for i in range(1,11):
+    for j in range(1,11):
+
+            print(i,"*",j,'=',i*j )
+    print("=============================================")
+    
+1 * 1 = 1
+1 * 2 = 2
+1 * 3 = 3
+1 * 4 = 4
+1 * 5 = 5
+1 * 6 = 6
+1 * 7 = 7
+1 * 8 = 8
+1 * 9 = 9
+1 * 10 = 10
+=============================================
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+=============================================
+3 * 1 = 3
+3 * 2 = 6
+3 * 3 = 9
+3 * 4 = 12
+3 * 5 = 15
+3 * 6 = 18
+3 * 7 = 21
+3 * 8 = 24
+3 * 9 = 27
+3 * 10 = 30
+=============================================
+4 * 1 = 4
+4 * 2 = 8
+4 * 3 = 12
+4 * 4 = 16
+4 * 5 = 20
+4 * 6 = 24
+4 * 7 = 28
+4 * 8 = 32
+4 * 9 = 36
+4 * 10 = 40
+=============================================
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+=============================================
+6 * 1 = 6
+6 * 2 = 12
+6 * 3 = 18
+6 * 4 = 24
+6 * 5 = 30
+6 * 6 = 36
+6 * 7 = 42
+6 * 8 = 48
+6 * 9 = 54
+6 * 10 = 60
+=============================================
+7 * 1 = 7
+7 * 2 = 14
+7 * 3 = 21
+7 * 4 = 28
+7 * 5 = 35
+7 * 6 = 42
+7 * 7 = 49
+7 * 8 = 56
+7 * 9 = 63
+7 * 10 = 70
+=============================================
+8 * 1 = 8
+8 * 2 = 16
+8 * 3 = 24
+8 * 4 = 32
+8 * 5 = 40
+8 * 6 = 48
+8 * 7 = 56
+8 * 8 = 64
+8 * 9 = 72
+8 * 10 = 80
+=============================================
+9 * 1 = 9
+9 * 2 = 18
+9 * 3 = 27
+9 * 4 = 36
+9 * 5 = 45
+9 * 6 = 54
+9 * 7 = 63
+9 * 8 = 72
+9 * 9 = 81
+9 * 10 = 90
+=============================================
+10 * 1 = 10
+10 * 2 = 20
+10 * 3 = 30
+10 * 4 = 40
+10 * 5 = 50
+10 * 6 = 60
+10 * 7 = 70
+10 * 8 = 80
+10 * 9 = 90
+10 * 10 = 100
+=============================================    
+
+'''
+'''
+
+#62.python prgram to find the student grade
+
+english=int(input("Enter the marks in english: "))
+math=int(input("Enter the marks in maths: "))
+computer=int(input("Enter the marks in computers: "))
+pysics=int(input("Enter the marks in pysics: "))
+chemistry=int(input("Enter the marks in chemistry: "))
+Total_marks=english+math+computer+pysics+chemistry
+percentage=float(Total_marks/500)*100
+print(Total_marks)
+print(percentage)
+
+if percentage>=90:
+    print("A+ grade")
+elif percentage>=80:
+    print("A garde")
+elif percentage>=70:  
+    print("B+ grade")
+elif percentage>=60:
+    print("B grade") 
+elif percentage>=50:
+    print("C garde")
+else:
+    print ("sorry your fail in all subjects..................Better luck next time ")   
+'''    
+    
+'''
+Enter the marks in english: 50
+
+Enter the marks in maths: 70
+
+Enter the marks in computers: 50
+
+Enter the marks in pysics: 50
+
+Enter the marks in chemistry: 60
+280
+56.00000000000001
+C garde    
+
+
+Enter the marks in english: 90
+
+Enter the marks in maths: 90
+
+Enter the marks in computers: 90
+
+Enter the marks in pysics: 90
+
+Enter the marks in chemistry: 90
+450
+90.0
+A+ grade
+
+
+
+
+
+
+
+Enter the marks in english: 30
+
+Enter the marks in maths: 30
+
+Enter the marks in computers: 30
+
+Enter the marks in pysics: 30
+
+Enter the marks in chemistry: 30
+150
+30.0
+sorry your fail in all subjects..................Better luck next time 
+'''    
+
+'''
+#63.python prgram to read 10 numbers and find the sum and avg
+
+print("Enter 10 numbers")
+sum=0
+for i in range(1,11):
+    num=int(input("Numbers %d=" %i))
+    sum=float(sum+i)
+avg=sum/10
+print("sum =",sum)
+print("avg =",avg)
+
+
+Enter 10 numbers
+
+Numbers 1=54
+
+Numbers 2=5
+
+Numbers 3=5
+
+Numbers 4=5
+
+Numbers 5=5
+
+Numbers 6=7
+
+Numbers 7=8
+
+Numbers 8=8
+
+Numbers 9=8
+
+Numbers 10=8
+sum = 55.0
+avg = 5.5
+'''
+
+
+'''
+#64.program to print first 10 even natural numbers
+
+
+print("10 even numbers")
+for i in range(1,11):
+    print(2*i,end=' ')
+    
+10 even numbers
+2 4 6 8 10 12 14 16 18 20    
+
+'''
+
+
+ 
+'''
+#65.prgram to print first 10 natural numbers
+
+print("natural numbers")
+for i in range(1,11):
+    print(i,end=" ")
+    
+natural numbers
+1 2 3 4 5 6 7 8 9 10   
+
+'''
+
+
+'''
+#66.program to first 10 natural numbers in reverse
+
+print("natural numbers in reverse")
+for i in range(10,0,-1):
+    print(i,end=" ")
+    
+natural numbers in reverse
+10 9 8 7 6 5 4 3 2 1 
+
+'''    
+
+
+'''
+#67.program  to print 10 odd natural numbers:
+
+print("10 odd natural numbers")
+for i in range(1,11):
+    print(i*2-1,end=" ")
+    
+10 odd natural numbers
+1 3 5 7 9 11 13 15 17 19
+''' 
+
+
+'''
+#68.program to print natural numbers from 1 to n
+
+n=int(input("eneter the number: "))
+for i in range(1,n+1):
+    print(i,end=" ")
+    
+    
+
+eneter the number: 100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+ 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54
+
+ 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83
+ 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100     
+'''
+
+'''
+#69.program to print natural numbers from 1 to n in reverse order
+n=int(input("enter the number: "))
+      
+for i in range(n,0,-1):
+    print(i)
+    
+    
+'''  
+
+'''
+#70.prgram to print average of two numbers
+
+x=float(input('enter the number1: '))
+y=float(input('enter the number2: ')) 
+
+sumoftwo=x+y
+
+sumavg=sumoftwo/2
+flooravg=sumoftwo//2
+print(sumoftwo)
+print(sumavg)
+print(flooravg)
+'''
+
+'''
+enter the number1: 10.5
+
+enter the number2: 2.3333
+12.8333
+6.41665
+6.0
+
+enter the number1: 22.363
+
+enter the number2: 21.222
+43.585
+21.7925
+21.0
+'''
+
+
+
+'''
+#71.python prgram to print sum and average of natural numbers
+n=int(input('enetr the number'))
+sum=0
+
+for i in range(1,n+1):
+    sum=sum+i
+avg=sum/n
+
+print(sum)
+
+
+
+enetr the number10
+55
+5.5
+print(avg)
+
+'''
+
+'''
+#72.python program to print the sum of 10 natural numbers and skip negative numbers
+
+
+posSum=0
+
+print("Enter the natural numbers")
+for i in range(1,11):
+    num=int(input("number %d=" %i))
+    if num<0:
+        continue #continue skips which are less than 0
+    posSum=posSum+num
+print(posSum)
+
+
+Enter the natural numbers
+
+number 1=8
+
+number 2=-9
+
+number 3=-9
+
+number 4=-9
+
+number 5=-9
+
+number 6=-9
+
+number 7=-9
+
+number 8=-9
+
+number 9=-9
+
+number 10=-9
+8
+    
+'''
+
+
+
+ 
+'''
+#73.python program to print the sum of 10 natural numbers and skip negative numbers without using continue statment
+
+posSum=0
+
+print("Enter the natural numbers")
+for i in range(1,11):
+    num=int(input("number %d=" %i))
+    if num>0:
+    
+        posSum=posSum+num
+print(posSum)       
+
+
+Enter the natural numbers
+
+number 1=5
+
+number 2=-9
+
+number 3=-9
+
+number 4=-9
+
+number 5=-9
+
+number 6=-9
+
+number 7=-9
+
+number 8=-9
+
+number 9=-9
+
+number 10=-9
+5 
+'''   
+
+
+'''
+#74. Python Program to Calculate Electricity Bill
+
+units=int(input("please enter the units consumed:"))
+
+if(units)>=200:
+    amount=units*9.65
+    surge=500
+elif(units)>=200:
+    amount=units*9.25
+    surge=350
+elif (units)>=150:
+    amount=units*8.5
+    surge=300
+elif (units)>=100:
+    amount=units*7.52
+    surge=250
+elif(units)>=50:
+    amount=units*6.5
+    surge=200
+else:
+    amount=units*2.5
+    surge=100
+total =amount+surge
+print("Total electricity bill",total)
+
+    
+
+please enter the units consumed:250
+Total electricity bill 2912.5
+
+'''
+
+
+'''
+#75.print the current date 
+
+
+from datetime import date
+today=date.today()
+print("current date=",today)
+
+
+
+current date= 2021-12-17
+'''
+
+
+'''
+from datetime import datetime
+
+today=datetime.now()
+print("current date and time",today)
+
+
+current date and time 2021-12-17 18:09:32.990253
+
+'''
+
+
+
+'''
+
+#76.program to find sum of natural numbers by for loop
+n=int(input("enter any number: "))
+sum=0
+for i in range(1,n+1):
+    sum=sum+i
+print("sum of numbers",sum)
+
+enter any number: 10
+sum of numbers 55
+'''
+
+'''
+#77.program to find sum of natural numbers by  while loop
+
+n=int(input("Enter any number: "))
+sum=0
+i=1
+while(i<=n):
+    sum=sum+i
+    i=i+1
+print("sum of numbers",sum)
+
+
+Enter any number: 20
+sum of numbers 210
+
+'''
+
+'''
+#78.program to find sum of natural numbers by functions
+
+def sumofnumbers(n):
+    sum=0
+    for i in range(1,n+1):
+        sum=sum+i
+    print(sum)
+        
+         
+n=int(input("enter  any number:"))
+sumofnumbers(n)
+      
+
+enter  any number:50
+1275
+'''
+
+'''
+
+#79.python prgram to find the sum of eveen numbers by for loop
+n=int(input("enter any numbers:"))
+sum=0
+for i in range(1,n+1):
+    if (i%2==0):
+        sum=sum+i
+print("sum of eeveen numbers",sum)
+
+
+
+enter any numbers:52525
+sum of eeveen numbers 689718906
+'''
+
+
+'''
+#80.python prgram to find the sum of eveen numbers by while loop
+
+n=int(input("Enter any number: "))
+sum=0
+i=1
+while(i<n):
+    if (i%2==0):
+        sum=sum+i
+    i=i+1
+print("sum of even numbers",sum)
+
+Enter any number: 50
+sum of even numbers 600
+
+'''
+
+
+'''
+#81.python prgram to find the sum of eveen numbers by function
+
+
+def even(n):
+    sum=0
+    for i in range(1,n+1):
+        if (i%2==0):
+            sum=sum+i
+    print(sum)
+n=int(input("enter any number:"))
+even(n)
+
+
+enter any number:66
+1122
+      
+                   
+'''
+
+
+'''
+#82.program to find sum and average of natural numbers by for loop
+
+n=int(input("enter any number:"))
+
+sum=0
+for i in range(1,n+1):
+    sum=sum+i
+avg=sum/n
+print("sum of natural numbers",sum)
+print("avg of natural numbers",avg)
+
+
+enter any number:50
+sum of natural numbers 1275
+avg of natural numbers 25.5
+
+'''
+
+
+'''
+#83program to find sum and average of natural numbers by while loop
+
+n=int(input("enter any number:"))
+sum=0
+i=1
+while(i<n):
+    sum=sum+i
+    i=i+1
+avg=sum/n
+print("sum",sum)
+
+
+
+enter any number:50
+sum 1225
+avg 24.5
+print("avg",avg)
+
+  '''
+  
+  
+  
+'''  
+ #84.program to find sum and average of natural numbers by functions
+ 
+def fun(n):
+    sum=0
+    for i in range(1,n+1):
+        sum=sum+i
+    avg=sum/n
+    print(sum)
+    print(avg)
+    
+n=int(input("enter any number:"))
+        
+fun(n)
+
+
+enter any number:650
+211575
+325.5
+'''
+
+
+
+
+
+'''
+#85.program to  find the sum of odd numbers by for loop
+n=int(input("ENTER any number:"))
+sum=0
+for i in range(1,n+1):
+    if (i%2!=0):
+        sum = sum+i
+print("sum of odd numbers",sum)
+
+ENTER any number:100
+sum of odd numbers 2500
+'''
+
+'''
+#86..program to  find the sum of odd numbers by for loop
+
+n=int(input("enter any number:"))
+sum=0
+i=1
+while(i<n):
+    if (i%2!=0):
+        sum=sum+i
+    i=i+1
+    
+print("sum of odd numbers",sum)
+
+
+enter any number:100
+sum of odd numbers 2500
+
+'''
+
+
+'''
+#87.program to  find the sum of odd numbers by functions
+
+def fun(n):
+    sum=0
+    for i in range(1,n+1):
+        if(i%2!=0):
+            sum=sum+i
+    print("sum of odd numbers",sum)
+        
+n=int(input("enter any number:"))
+fun(n)
+
+
+enter any number:100
+sum of odd numbers 2500
+
+'''
+
+
+'''
+#88.python program to find sum of odd and even numbers by for loop
+n=int(input("enter any number:"))
+sum_odd=0
+sum_even=0
+for i in range(1,n+1):
+    if(i%2==0):
+        sum_even=sum_even+i
+    else:
+        sum_odd=sum_odd+i
+print("sum of odd",sum_odd)
+print("sum of even",sum_even)
+
+
+enter any number:100
+sum of odd 2500
+sum of even 2550
+'''
+
+
+'''
+#89.python program to find sum of odd and even numbers by while loop
+n=int(input("enter any number:"))
+sum_odd=0
+sum_even=0
+
+i=1
+while(i<=n):
+     if(i%2==0):
+        sum_even=sum_even+i
+     else:
+        sum_odd=sum_odd+i
+     i=i+1
+print("sum of odd",sum_odd)
+print("sum of even",sum_even)
+
+
+enter any number:100
+sum of odd 2500
+sum of even 2550
+enter any number:100
+sum of odd 2500
+sum of even 2550
+
+
+
+'''
+
+
+'''
+#90..python program to find sum of odd and even numbers by function
+
+def number(n):
+    sum_odd=0
+    sum_even=0
+    i=1
+    while(i<=n):
+        if(i%2==0):
+            sum_even=sum_even+i
+            
+        else:
+            sum_odd=sum_odd+i
+        i=i+1
+    print("sum of odd",sum_odd)
+    print("sum of even",sum_even)
+
+
+n=int(input("enter any number:"))
+number(n)
+
+enter any number:100
+sum of odd 2500
+sum of even 2550
+'''
